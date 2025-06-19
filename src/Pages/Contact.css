@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.Contact{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header_contact{
+  width: 97.5%;
+  height: 100px;
+  margin-top: 20px;
+  background: #995E7C;
+  margin-bottom: 10px;
+}
+
+.glow-gradient{
+  background: linear-gradient(250deg, #D3B19E, #D39CBD, #995E7C, #683142, #312528);
+  background-size: 800% 800%;
+  animation: effectfon 10s ease infinite;
+  border-radius: 10px;
+}
+@keyframes effectfon{
+  0%{background-position: 0% 50%}
+  50%{background-position: 100% 50%}
+  100%{background-position: 0% 50%}
+}
+.about_contact{
+  width: 97.5%;
+  height: 20px;
+  margin-top: 2%;
+  margin-bottom: 2.5%;
+}
+
+aside{
+  width: 97.5%;
+  height: 600px;  
+  display: flex;
+  background: #573c41;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+aside div{
+  font-family: 'Roboto Condensed', cursive;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.info_con1{
+  width: 25%;
+  height: 450px;
+  background: #795661;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #D3B19E;
+}
+.info_con1 h1{
+  font-size: 45px;
+}
+.info_con1 a{
+  color: #D3B19E;
+  text-decoration: none;
+}
+.info_con1 img{
+  margin-bottom: 18%;
+}
+
+.info_con2{
+  width: 30%;
+  height: 550px;
+  background: #795661;
+}
+
+.info_con3{
+  width: 25%;
+  height: 450px;
+  background: #795661;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #D3B19E;
+}
+.info_con3 h1{
+  font-size: 45px;
+}
+.info_con3 a{
+  color: #D3B19E;
+  text-decoration: none;
+}
+.info_con3 img{
+  margin-bottom: 18%;
+}
+footer{
+  width: 97.5%;
+  height: 280px;
+  margin-top: 20px;
+  background: #573c41;
+  padding: 1%;
+}
+
+.footer_contactAlso{
+  width: 30%;
+  height: 240px;
+  background: #795661;
+  padding: 1%;
+  border-radius: 10px;
+}
+.footer_contactAlso h1{
+  font-size: 30px;
+  color: #D3B19E;
+  font-family: 'Roboto Condensed', cursive;
+}
+.footer_contactAlso h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 15px;
+}
+.footer_contactAlso a{
+  text-decoration: none;
+  color: #D3B19E;
+}

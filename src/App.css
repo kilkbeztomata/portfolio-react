@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #312528;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+@import url('https://fonts.google.com/share?selection.family=DM+Serif+Display:ital@0;1|Edu+QLD+Hand:wght@400..700|Josefin+Sans:ital,wght@0,100..700;1,100..700|Jost:ital,wght@0,100..900;1,100..900|Roboto+Condensed:ital,wght@0,100..900;1,100..900');
+.box{
+  width: 100%;
+  height: 100vh;
+  background: #312528;
+}
+nav{
+  margin-left: 1%;
+  z-index: 10;
+  height: 80px;
+  width: 38%;
+  height: 80px;
+  background: #995E7C;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 20px;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+#home,#about,#contact,#skill {
+  text-decoration: none;
+  width: 30%;
+  height: 60px;
+  margin: 2px;
+  color: #D3B19E;
+  border-radius: 15px;
+  font-family: 'Roboto Condensed', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+#home:hover,#about:hover,#contact:hover,#skill:hover {
+  background:#D39CBD;
+  color: #995E7C;
+}
